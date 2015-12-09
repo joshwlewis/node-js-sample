@@ -9,5 +9,6 @@ app.get('/', function(request, response) {
 })
 
 app.listen(app.get('port'), function() {
+  console.log("THE MOON RULEZ! #1")
   console.log("Node app is running at localhost:" + app.get('port'))
 })
