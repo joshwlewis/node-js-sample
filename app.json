@@ -5,6 +5,7 @@
   "logo": "http://node-js-sample.herokuapp.com/node.svg",
   "keywords": ["node", "express", "static"],
   "scripts": {
-    "postdeploy": "sleep 500 && echo '💩'"
+    "postdeploy": "sleep 500 && echo '💩'",
+    "pr-predestroy": "sleep 10 && echo '💥'"
   }
 }
